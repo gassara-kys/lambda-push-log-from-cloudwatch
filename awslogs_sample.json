@@ -1,0 +1,20 @@
+{
+    "awslogs": {
+        "data": {
+            "messageType": "DATA_MESSAGE",
+            "owner": "123456789012",
+            "logGroup": "/aws/samaple",
+            "logStream": "9999/12/22/[$LATEST]8ac0982efa7e40e78d6702702b842a7e",
+            "subscriptionFilters": [
+                "Detect Something"
+            ],
+            "logEvents": [
+                {
+                    "id": "<log events id>",
+                    "timestamp": 1640181063036,
+                    "message": "Hello CloudWatch Logs subscription filters.\n"
+                }
+            ]
+        }
+    }
+}
